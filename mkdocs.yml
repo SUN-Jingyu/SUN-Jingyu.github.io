@@ -1,0 +1,82 @@
+site_name: 孙靖宇的个人网站
+#site_url: https://mydomain.org/孙靖宇的个人网站
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-night-outline
+        name: Switch to dark mode
+      primary: green
+      accent: blue 
+    - scheme: slate 
+      toggle:
+        icon: material/lightbulb-on
+        name: Switch to light mode    
+      primary: green
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kevinsjy/Jingyu_Sun
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/650813126?spm_id_from=333.1007.0.0
+
+# Extensions for coding style
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Copyright
+copyright: Copyright &copy; 孙靖宇
