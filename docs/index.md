@@ -13,9 +13,14 @@ some `code` goes here.
 A plain codeblock using `C` here:  
 
 ``` c title="bubble_sort.c"
+#include<stdio.h>
+int main()
+{
+    printf("Hello, world!\n");
+}
 some code here 
 def myfuction()
-// some commentd
+// some comments
 ```  
 
 ## Icons and Emojs
