@@ -1,31 +1,73 @@
 site_name: 孙靖宇的个人网站
-#site_url: https://mydomain.org/孙靖宇的个人网站
+site_url: https://sun-jingyu.github.io/
+site_author: 孙靖宇
+site_description: 孙靖宇的个人网站
+
+nav:
+  - 我:
+    - ME/index.md
+  - 博客:
+    - BLOG/index.md
+  - 笔记: 
+    - NOTE/index.md
+  - 日常:
+    - DAILY/index.md
+  - 网站:
+    # 访客打开网站第一个看到的是 docs/index.md
+      - WEBSITE/index.md
+# [UI]
+# [top]
 theme:
   name: material
   features:
+    # 使用 Tab 来进行分类
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
     - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    # 返回顶部的按钮，在上滑时出现
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
     - navigation.top
+    # 给每个 Tab 添加一个 index.md，且在点击 Tab 时打开
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
+    - navigation.indexes
+    # 打开 Tab 时左侧目录全部展开
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
+    - navigation.expand
+    # 搜索输入一些字母时推荐补全整个单词
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.suggest
+    # 搜索的关键词文章加入高亮
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-highlighting
     - search.highlight
-    - content.tabs.link
-    - content.code.annotate
+    # 可以通过按钮复制代码
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-copy-button
     - content.code.copy
-  language: en
+    # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+    - content.action.edit
+  language: en 
   palette:
+    # 日间模式
     - scheme: default
+      # 主颜色
+      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+      primary: indigo
+      # 链接等可交互元件的高亮色
+      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
+      accent: orange
       toggle:
-        icon: material/lightbulb-night-outline
-        name: Switch to dark mode
-      primary: green
-      accent: blue 
-    - scheme: slate 
+        # 图标
+        icon: material/weather-night
+        # 鼠标悬浮提示
+        name: 切换至夜间模式
+    # 夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: orange
       toggle:
-        icon: material/lightbulb-on
-        name: Switch to light mode    
-      primary: green
-      accent: lime
+        icon: material/weather-sunny
+        name: 切换至日间模式
+
+
 
 extra:
   social:
@@ -33,6 +75,8 @@ extra:
       link: https://github.com/kevinsjy/Jingyu_Sun
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/650813126?spm_id_from=333.1007.0.0
+
+
 
 # Extensions for coding style
 markdown_extensions:
@@ -77,6 +121,35 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+    
+plugins:
+  # [搜索功能]
+  # https://squidfunk.github.io/mkdocs-material/plugins/search/
+  # 之前中文搜索是 Insider 的功能（https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/），现在好像已经是默认功能了，
+  - search:
+      lang:
+        - zh
+        - en
+  # [给单篇文章添加标签]
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
+  # https://squidfunk.github.io/mkdocs-material/plugins/tags/#meta.tags
+  - tags
+
+extra_javascript:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - mkdocs/javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+extra_css:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  # [自定义 css]
+  # 不使用底部的翻页
+  - mkdocs/css/no-footer.css
+  # 无序列表符号自定义
+  - mkdocs/css/unordered-list-symbols.css
 
 # Copyright
 copyright: Copyright &copy; 孙靖宇
