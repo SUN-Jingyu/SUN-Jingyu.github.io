@@ -27,5 +27,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      # 使用 mkdocs-material 构建网站并部署到 gh-pages 分支
       - run: mkdocs gh-deploy --force
 

@@ -12,9 +12,12 @@ nav:
     - NOTE/index.md
   - 日常:
     - DAILY/index.md
+    - DAILY/Jotting/0824.md
   - 网站:
     # 访客打开网站第一个看到的是 docs/index.md
       - WEBSITE/index.md
+      - WEBSITE/develop.md
+      
 # [UI]
 # [top]
 theme:
@@ -66,7 +69,22 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
-
+  icon:
+    # [添加 GitHub 仓库]
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#repository-icon
+    repo: fontawesome/brands/github
+    # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
+    # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
+edit_uri: edit/main/docs/
+# [top-right corner]
+# [添加 GitHub 仓库]
+# https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
+repo_url: https://github.com/SUN-Jingyu/SUN-Jingyu.github.io
+repo_name: SUN-Jingyu.github.io
+# [bottom-left corner]
+# [版权说明]
+# https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#copyright-notice
+copyright: Copyright &copy; 孙靖宇
 
 
 extra:
@@ -150,6 +168,3 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
-
-# Copyright
-copyright: Copyright &copy; 孙靖宇
