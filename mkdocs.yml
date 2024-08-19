@@ -8,6 +8,13 @@ nav:
     - ME/index.md
   - 博客:
     - BLOG/index.md
+  - 开发:
+    - DEV/index.md
+    - 网页:
+      - DEV/WEB/Markdown.md
+      - DEV/WEB/github_pages.md
+    - Linux:
+      - DEV/LINUX/unix.md
   - 笔记: 
     - NOTE/index.md
   - 日常:
@@ -17,7 +24,7 @@ nav:
     # 访客打开网站第一个看到的是 docs/index.md
       - WEBSITE/index.md
       - WEBSITE/develop.md
-      
+
 # [UI]
 # [top]
 theme:
