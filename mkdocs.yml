@@ -19,7 +19,8 @@ nav:
     - NOTE/index.md
   - 日常:
     - DAILY/index.md
-    - DAILY/Jotting/0824.md
+    - 随笔:
+      - DAILY/Jotting/0824.md
   - 网站:
     # 访客打开网站第一个看到的是 docs/index.md
       - WEBSITE/index.md
@@ -54,7 +55,7 @@ theme:
     # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
-  language: en 
+  language: en
   palette:
     # 日间模式
     - scheme: default
