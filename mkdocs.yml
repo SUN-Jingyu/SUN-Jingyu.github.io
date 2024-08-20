@@ -13,6 +13,8 @@ nav:
     - 网页:
       - DEV/WEB/Markdown.md
       - DEV/WEB/github_pages.md
+    - PCB:
+      - DEV/AD24/pcb.md
     - Linux:
       - DEV/LINUX/unix.md
   - 笔记: 
