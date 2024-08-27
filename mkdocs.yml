@@ -8,6 +8,8 @@ nav:
     - ME/index.md
   - 博客:
     - BLOG/index.md
+    - 智能车:
+      - BLOG/Sma_car/schematic.md
   - 开发:
     - DEV/index.md
     - 网页:
