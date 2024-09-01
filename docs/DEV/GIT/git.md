@@ -1,6 +1,32 @@
 # Git 
 
-> 该文档参考[Git 教程 廖雪峰](https://liaoxuefeng.com/books/git/introduction/index.html) 进行编写以及记录，目的在于整理以及学习Git分布式版本控制系统
+> 该文档参考[Git 教程 廖雪峰](https://liaoxuefeng.com/books/git/introduction/index.html) 进行编写以及记录，目的在于整理以及学习Git分布式版本控制系统 
+
+## 版本控制系统
+
+### 集中式（CVS及SVN）VS 分布式（Git）
+
+#### 集中式版本控制系统 SVN 
+
+版本库集中存放在中央repository，这个repository像一个文件服务器，它会记住每一次用户提交的文件改动，所以用过可以查看文件的变动历史，也可以将文件恢复到之前的版本。新人开始干活了，用的都是个人电脑，所以要先从中央repository获取最新的版本，然后开始干活，干完活了，再把自己的文件修改上传给中央repository，生成新的版本。集中式版本控制系统必须联网才能工作，局域网中速度还行，但是在互联网环境下，网速通常比较慢
+
+repository（源代码库）：源代码统一存放的地方，用户提取、提交、更新代码的地方
+
+checkout（提取）：刚开始工作时，你需要从repository checkout一份
+
+commit（提交）：工作对代码进行了修改，你需要将修改的文件Commit到repository
+
+update (更新)：别人也会提交新代码到repository， Update一下你就可以和repository上的源代码同步了
+
+#### 分布式版本控制系统 Git
+
+working directory（工作区）：在本地电脑里的工作目录
+
+staging area（暂存区）：index文件中，缓冲commit操作
+
+repository（版本库）：管理所有版本文件的仓库
+
+__工作流程：__ 克隆Git资源作为工作目录；在本地的资源上修改或添加文件；如果他人提交了修改，你可以更新资源；调试通过后提交修改的文件；发现还是有错误，可以撤回提交再次修改后提交。git add从工作区提交到暂存区，git commit从暂存区提交到本地仓库，git push从本地仓库提交到远程仓库。
 
 ## 文本文件、二进制文件
 
