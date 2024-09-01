@@ -12,3 +12,7 @@
 
 ### 抓取分支
 
+``` Git
+git pull
+```
+dadas
