@@ -19,6 +19,8 @@ nav:
       - DEV/AD24/pcb.md
     - Linux:
       - DEV/LINUX/unix.md
+    - Git:
+      - DEV/GIT/git.md
   - 笔记: 
     - NOTE/index.md
     - 模拟电路:
