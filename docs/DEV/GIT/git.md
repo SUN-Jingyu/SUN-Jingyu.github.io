@@ -1,4 +1,4 @@
-# Git 
+# Git 版本控制系统
 
 > 该文档参考[Git 教程 廖雪峰](https://liaoxuefeng.com/books/git/introduction/index.html) 进行编写以及记录，目的在于整理以及学习Git分布式版本控制系统 
 
@@ -36,12 +36,28 @@ __工作流程：__ 克隆Git资源作为工作目录；在本地的资源上修
 
 ## 分支管理
 
-### 抓取分支
+### 解决冲突  
 
-<<<<<<< HEAD
-``` Git
-git pull
-```
-dadas
-=======
->>>>>>> dev
+当Git无法 __自动合并分支__ 时，就必须首先解决冲突。解决冲突后，再提交，合并完成  
+
+* 有关文档内容的冲突：
+    Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容，我们修改如下后保存:  
+
+    ``` git
+    git add readme.txt
+    git commit -m "conflict fixed"
+    ```
+
+### 多人协作
+
+多人协作的工作模式通常是这样：
+
+1. 首先，可以尝试用 ```git push origin <branch-name>``` 推送自己的修改；
+2. 如果推送失败，则因为远程分支比你的本地更新，需要先用 ```git pull``` 试图合并；
+    1. 如果本地分支和远程分支的链接关系没有创建，提示 ``` no traching information```, 使用 ```git checkout -b <branch-name> origin/<branch-name>```, 本地和远程分支的名称最好一致;  
+    然后建立本地分支和远程分支的关联，使用 ```git branch --set-upstream <branch-name> origin/<branch-name>```.
+    2. 如果合并有冲突，则解决冲突，并在本地提交；
+3. 没有冲突或者解决掉冲突后，再用 ```git push origin <branch-name>``` 推送就能成功！
+
+
+
