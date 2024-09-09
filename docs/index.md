@@ -13,11 +13,10 @@
 
 ## 主要经历与个人现状 (Academic Journey)  
 
-- (2024.9 - 2025.9) [华威大学(university of Warwick)](https://warwick.ac.uk/)研究生  
+- (2024.9 - 2025.9) [华威大学(university of Warwick)](https://warwick.ac.uk/) 硕士研究生  
     - 学院： [华威大学电气电子学院](https://warwick.ac.uk/fac/sci/eng/undergraduate/electrical_and_electronic_engineering/)
 
-- (2020.9 - 2024.5) [河南理工大学](https://www.hpu.edu.cn/)与[爱尔兰利莫瑞克大学 (University of Limerick)](https://www.shlab.org.cn)合作办学 (2+2项目 )
-
+- (2020.9 - 2024.5) [河南理工大学](https://www.hpu.edu.cn/)与[爱尔兰利莫瑞克大学 (University of Limerick)](https://www.shlab.org.cn)
     - (2020.9 - 2022.6) 就读[河南理工大学计算机学院](https://cst.hpu.edu.cn/)
         - 专业：计算机科学与技术
 
