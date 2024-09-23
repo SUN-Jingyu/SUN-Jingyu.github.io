@@ -26,6 +26,8 @@ nav:
     - 模拟电路:
       - 拉扎维电子电路:
         - NOTE/Analog/Razavi.md
+    - 通信原理:
+        - NOTE/Signals/Telcom.md
   - 转载:
     - REPRODUCE/index.md
   - 随笔:

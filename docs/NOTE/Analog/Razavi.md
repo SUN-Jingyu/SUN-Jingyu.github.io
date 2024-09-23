@@ -12,3 +12,18 @@
 
 * __Impdance Matching__: In many analog cirits, especially in RF and audio aplications, impedae matching is essential to ensure *maximum power transfer* and *mnimize reflections*.
 
+## Thevenin equivalent 戴南维等式
+
+> Alternative analysis  
+
+1. Determine ```Vth``` s(Thevenin voltage):  
+    * Remove the load resistor from the original circuit.
+    * Calculate the open-circuit voltage across the terminals where the load was connected. This is ```Vth```.
+
+2. Determine ```Rth``` (Thevenin resistance):
+    * Remove all voltage sources (replace them with short circuits) and current sources (replace them with open circuits).
+    * Calculate the equivalent resistance seen from the load terminals. This is ```Rth```. 
+
+3. Rebuild the circuit:  
+    * Once you have ```Vth``` and ```Rth```, you can draw the Thevenin equivalent circuit with ```Vth``` in series with ```Rth```, and the load resistor connected to them.
+
