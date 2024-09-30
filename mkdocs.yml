@@ -28,6 +28,8 @@ nav:
         - NOTE/Analog/Razavi.md
     - 通信原理:
         - NOTE/Signals/Telcom.md
+    - Microwave and RF circuit:
+        - NOTE/RF/rf.md
   - 转载:
     - REPRODUCE/index.md
   - 随笔:
