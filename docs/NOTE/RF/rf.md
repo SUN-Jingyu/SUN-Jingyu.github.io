@@ -2,7 +2,7 @@
 
 > 该笔记写于研究生阶段，学习Microwave Engineering and RF Circuits 这门课。9/2024
 
-> 参考该博客[射频电路设计——传输线理论(Transmission Line Analysis)](https://blog.csdn.net/weixin_43784055/article/details/122136730)
+> 参考该博客[射频电路设计——传输线理论(Transmission Line Analysis)](https://blog.csdn.net/weixin_43784055/article/details/122136730) 以及[Transmission Line Theory](https://www.bilibili.com/video/BV14F411m7dD?p=4&vd_source=ff9a60fb4cd8133ac45d108a89246dc0])
 
 **传输线理论** 主要用于分析在高频率条件下电压和电流随距离发生变化的电路。这种理论不仅在射频（RF）和微波技术中非常重要，在高速数字电路和长距离电力传输中同样适用。
 
