@@ -30,9 +30,12 @@ nav:
         - NOTE/Signals/Telcom.md
     - Microwave and RF circuit:
         - NOTE/RF/rf.md
+        - NOTE/RF/Impedence.md
   - 转载:
     - REPRODUCE/index.md
   - 随笔:
+    - 引用格式:
+      - DAILY/Essay/citing.md
     - 阅读:
       - DAILY/Book/talmud.md
     - 日常:
