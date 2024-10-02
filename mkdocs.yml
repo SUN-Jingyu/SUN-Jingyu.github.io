@@ -31,6 +31,8 @@ nav:
     - Microwave and RF circuit:
         - NOTE/RF/rf.md
         - NOTE/RF/Impedence.md
+    - 电机驱动控制:
+        - NOTE/Mechanical/Electrical drives.md
   - 转载:
     - REPRODUCE/index.md
   - 随笔:
