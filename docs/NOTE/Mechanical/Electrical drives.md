@@ -10,9 +10,9 @@
 
 3. **速度比** Velocity ratio：对于由于齿轮或皮带而以不同角速度运动的旋转部件，其转动惯量通过它们的角速度与电动机轴角速度的比值的平方进行缩放。  
 
-   \[
+\[
       J_{\text{eq}} = J_{\text{real}} \left(\frac{\omega_{\text{real}}}{\omega_{\text{motor}}}\right)^2
-   \]
+\]
 
    其中:  
 
