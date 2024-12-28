@@ -1,4 +1,6 @@
-# A note for PhD schoolarship application
+# PhD schoolarship application 
+
+> This note is writing for preparing PhD application 28/12/2024
 
 ## CSC 
 
