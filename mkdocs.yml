@@ -1,7 +1,7 @@
-site_name: 孙靖宇的个人网站
+site_name: Jingyu SUN WEB
 site_url: https://sun-jingyu.github.io/
-site_author: 孙靖宇
-site_description: 孙靖宇的个人网站
+site_author: Jingyu SUN
+site_description: The personal website of Jingyu SUN
 
 nav:
   - 我:
@@ -21,8 +21,10 @@ nav:
       - DEV/LINUX/unix.md
     - Git:
       - DEV/GIT/git.md
-  - 笔记: 
+  - NOTE: 
     - NOTE/index.md
+    - Master-Dissertation:
+        - NOTE/Log-book/0125.md
     - 模拟电路:
       - 拉扎维电子电路:
         - NOTE/Analog/Razavi.md
