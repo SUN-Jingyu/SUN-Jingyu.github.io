@@ -71,7 +71,6 @@
 
 > These expressions often __ignore $r_o$__ (output resistance), and here's why.
 
----
 
 ### Why Is $r_o$ Often Ignored with Degeneration?
 
