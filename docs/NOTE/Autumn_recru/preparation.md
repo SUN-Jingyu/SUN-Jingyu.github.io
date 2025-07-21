@@ -21,3 +21,8 @@
 ## LDO
 
 [TI 官方手册 Understanding Low Drop Out(LDO) Regulators](https://www.ti.com/download/trng/docs/seminar/Topic%209%20-%20Understanding%20LDO%20dropout.pdf)
+
+## STRA原则
+
+    1. ** Situation **：事情发生在什么情况下，背景是什么。
+    Target： 目标是什么，任务是什么。
