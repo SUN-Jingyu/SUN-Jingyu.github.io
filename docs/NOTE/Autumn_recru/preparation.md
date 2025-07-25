@@ -5,7 +5,7 @@
 > 学习路径 [b站 达尔文-1个好的硬件电路如何设计](https://www.bilibili.com/video/BV1j3411q7KV/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&vd_source=ff9a60fb4cd8133ac45d108a89246dc0)
 
 1. **分析项目需求，确定主芯片**  
-    确定外围设备的需求以及功能。
+    确定外围设备的需求以及功能。[跳转到主芯片的选择](#主芯片的选择)
 2. **搭建硬件框图**
     系统框架的绘制与原理图的选型；需要考虑到价格，生产供货周期，量产截止时间以及潜在性问题。
 3. **绘制原理图**
@@ -18,11 +18,15 @@
     SMT贴片还是手焊，短路测试，上电测试，再调功能，维修以及模块化检查出问题的电路。
 7. **PCBA展示**
 
-## LDO
+## 主芯片的选择
 
-[TI 官方手册 Understanding Low Drop Out(LDO) Regulators](https://www.ti.com/download/trng/docs/seminar/Topic%209%20-%20Understanding%20LDO%20dropout.pdf)
+[返回上方流程](#如何设计硬件电路全流程)
 
 ## STRA原则
 
 **Situation**：事情发生在什么情况下，背景是什么。
 **Target**： 目标是什么，任务是什么。
+
+## LDO
+
+[TI 官方手册 Understanding Low Drop Out(LDO) Regulators](https://www.ti.com/download/trng/docs/seminar/Topic%209%20-%20Understanding%20LDO%20dropout.pdf)
