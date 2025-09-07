@@ -43,6 +43,8 @@ nav:
         - NOTE/Mechanical/Electrical drives.md
   - 转载:
     - REPRODUCE/index.md
+    - XR:
+      - REPRODUCE/XR/AR.md
   - 随笔:
     - PhD:
       - DAILY/PhD/noting.md
