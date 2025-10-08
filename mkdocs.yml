@@ -6,7 +6,9 @@ site_description: The personal website of Jingyu SUN
 nav:
   - 我:
     - ME/index.md
+    - ME/bachelor.md
     - ME/projects.md
+    
   - 博客:
     - BLOG/index.md
     - 智能车:
