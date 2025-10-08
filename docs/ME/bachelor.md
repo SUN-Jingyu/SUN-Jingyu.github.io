@@ -4,18 +4,19 @@
 
 ### 毕业证以及学位证
 
-    ![HPU Graduation Certificate](./images-certification/HPU_graduate_paper.png){width=100%}
+![](images_certification/HPU毕业证.jpeg){width=80%}
 
-    ![](images_certification/HPU学士学位证.jpeg)
+![](images_certification/HPU学士学位证.jpeg){width=80%}
 
 ### 成绩单
 
-    ![](images_certification/images_certification/HPU成绩.jpg)
+![](images_certification/HPU成绩.jpg)
 
 ### 奖项
 
-    ![](images_certification/国家奖学金.jpeg)
-    ![](images_certification/孙靖宇获奖证书合照.jpg)
+![](images_certification/国家奖学金.jpeg)
+
+![](images_certification/孙靖宇获奖证书合照.jpg)
 
 ### 活动 
 
