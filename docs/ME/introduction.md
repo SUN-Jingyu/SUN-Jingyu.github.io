@@ -10,6 +10,7 @@
 - 现居：上海市浦东新区
 - 个人简历：[![Open Resume](https://img.shields.io/badge/Open%20Resume-PDF-black?logo=github)](./images_certification/华威大学-电气电子-孙靖宇.pdf)
 
+
 ## 联系方式
 
 - 邮箱：jingyusun1@qq.com
@@ -23,7 +24,9 @@
 - 有较强的学习钻研能力 对前沿技术感兴趣
 - 有良好的 **动手能力** 喜欢工程实践 试错能力较高
 - 有良好的组织管理能力 担任班长以及项目队长 擅长信息整合
-- 热爱生活 性格乐观 擅长思考 喜欢分享以及阅读
+- 热爱生活 性格乐观 擅长思考 喜欢分享以及[阅读](../DAILY/Book/talmud.md)
+
+[更多查看](./personality.md)
 
 ## 主要经历
 
