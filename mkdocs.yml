@@ -148,7 +148,6 @@ extra:
       link: https://space.bilibili.com/650813126?spm_id_from=333.1007.0.0
 
 
-
 # Extensions for coding style
 markdown_extensions:
   - abbr

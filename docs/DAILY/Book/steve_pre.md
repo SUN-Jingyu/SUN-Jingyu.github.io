@@ -1,1 +1,5 @@
-# The presentation secret of steven job 乔布斯的魔力演讲
+# The presentation secret of steven job 乔布斯的魔力演讲  
+
+> 阅读这本书的契机是在25年回国后，想要阅读一些名人传记，第一个人就是想到了乔布斯，在书店中发现了这本书，结合当时秋招的节点，觉得演讲技巧很是关键于是开启了这本书的旅程。10/2025
+
+## 本书大概

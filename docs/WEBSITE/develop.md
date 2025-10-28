@@ -22,3 +22,7 @@
 - 在 [Issues](https://github.com/SUN-Jingyu/SUN-Jingyu.github.io/issues) 板块提出问题
 - 在 [Pull Requests](https://github.com/SUN-Jingyu/SUN-Jingyu.github.io/pulls) 板块修改源文件
 - 点击文章标题右侧的编辑按钮对文章进行修改  
+
+## 语言
+
+由于HTML只支持一种语言在一个文档中，所以如果想要开发对于同一个项目实现不同语言的切换，需要进行创建子文件并使用不同语言编写，介于本网站主要用于个人生活记录，并面向中国用户，所以大部分文档使用中文，如果需要可进行页面翻译。

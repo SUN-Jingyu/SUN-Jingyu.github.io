@@ -1,5 +1,12 @@
 # 本文记录准备秋招所学习的知识以及反思
 
+## STAR原则
+
+**Situation**：事情发生在什么情况下，背景是什么。
+**Target**： 目标是什么，任务是什么。
+**Action**：你采取了哪些具体的行动步骤？（强调你的个人作用）
+**Result**: 最终的结果是什么？是否达成目标？有没有量化成果？
+
 ## 如何设计硬件电路全流程
 
 > 学习路径 [b站 达尔文-1个好的硬件电路如何设计](https://www.bilibili.com/video/BV1j3411q7KV/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&vd_source=ff9a60fb4cd8133ac45d108a89246dc0)
@@ -22,10 +29,6 @@
 
 [返回上方流程](#如何设计硬件电路全流程)
 
-## STRA原则
-
-**Situation**：事情发生在什么情况下，背景是什么。
-**Target**： 目标是什么，任务是什么。
 
 ## LDO
 
