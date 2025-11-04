@@ -21,6 +21,7 @@
     - 商业意识：客户理解、市场洞察，主动参加行业交流活动
 3.
 
+
 ## 🙋 面试反问
 
 1. 您希望个人对该岗位有什么样的能力要求
@@ -78,3 +79,9 @@
 7. 假若你是客户的IT部门，你觉得站在客户的角度，会怎样考量公司的产品（角色反转）  
 8. 怎样做好客户关系（人情世故了）  
 9. 
+
+
+### 海能达 
+
+1. 用英文介绍一款产品
+The iPhone 13 is a powerful and well-balanced smartphone released by Apple in 2021. It features a 6.1-inch Super Retina XDR OLED display, powered by the A15 Bionic chip for excellent performance and energy efficiency. The device has a dual 12-megapixel camera system with improved low-light photography and sensor-shift optical image stabilization. It supports 5G connectivity, MagSafe charging, and has an IP68 water-resistance rating. With its sleek design, strong performance, and reliable battery life, the iPhone 13 remains a popular choice for users who want flagship quality at a more affordable price.

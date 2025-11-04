@@ -19,6 +19,10 @@
 
 - [小红书](https://www.xiaohongshu.com/user/profile/602de43f000000000101e911)
 
+## 主要经历
+
+[更多查看](./experience.md)
+
 ## 个人特点
 
 - 有较强的学习钻研能力 对前沿技术感兴趣
@@ -27,10 +31,6 @@
 - 热爱生活 性格乐观 擅长思考 喜欢分享以及[阅读](../DAILY/Book/talmud.md)
 
 [更多查看](./personality.md)
-
-## 主要经历
-
-[更多查看](./experience.md)
 
 ## 个人能力
 

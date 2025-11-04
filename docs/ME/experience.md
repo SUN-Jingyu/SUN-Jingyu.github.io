@@ -52,6 +52,10 @@ GPA：3.89 / 5.0
 - 基于温湿度、光照、CO₂ 等传感器构建大棚环境监控系统，并通过 RF 收发器实现无线数据传输。  
 - 向项目团队展示 IoT 系统架构及功能验证，提升了技术方案展示与跨文化沟通能力。  
 
+> We chose RF communication instead of Bluetooth or Wi-Fi mainly because of the application environment.
+In a greenhouse, the signal coverage can be unstable due to humidity and metal frames. RF modules provide longer transmission distance, lower power consumption, and better penetration than Bluetooth or Wi-Fi.  
+Also, the system only needs to send small packets of sensor data, not high-speed streaming. So RF was a more reliable and energy-efficient choice for real-time monitoring in an agricultural IoT system.
+
 ---
 
 ## 🧠 项目经历
