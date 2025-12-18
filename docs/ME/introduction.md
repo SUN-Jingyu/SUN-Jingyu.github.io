@@ -1,13 +1,13 @@
 # 个人介绍
 
-## 个人信息 
+## 个人信息
 
-> 更新于 08/10/2025
+> 更新于 18/12/2025
 
 - 姓名：孙靖宇
 - 性别：男
 - 籍贯：河南省许昌市
-- 现居：上海市浦东新区
+- 现居：河南省许昌市
 - 个人简历：[![Open Resume](https://img.shields.io/badge/Open%20Resume-PDF-black?logo=github)](./images_certification/华威大学-电气电子-孙靖宇.pdf)
 
 
